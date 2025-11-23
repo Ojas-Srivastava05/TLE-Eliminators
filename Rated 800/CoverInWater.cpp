@@ -36,7 +36,7 @@ int main() {
             continue;
         }
 
-        // Otherwise answer is just number of dots
+        
         int count = 0;
         for (char c : s) if (c == '.') ++count;
         cout << count << '\n';
